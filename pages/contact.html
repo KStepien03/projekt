@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="header__nav">
+            <a href="../index.html"><img  class="header__nav__img" src="../images/logo.svg"></a>
+            <div class="header__nav__navlinks" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="header__nav__navlinks__ul">
+                    <li class="header__nav__navlinks__ul__li">
+                        <a href="../index.html" class="header__nav__navlinks__ul__li__a">Home</a>
+                    </li>
+                    <li class="header__nav__navlinks__ul__li">
+                        <a href="about.html" class="header__nav__navlinks__ul__li__a">O Nas</a>
+                    </li>
+                    <li class="header__nav__navlinks__ul__li">
+                        <a href="profiles.html" class="header__nav__navlinks__ul__li__a">Profile</a>
+                    </li>
+                    <li class="header__nav__navlinks__ul__li">
+                        <a href="blog.html" class="header__nav__navlinks__ul__li__a">Blog</a>
+                    </li>
+                    <li class="header__nav__navlinks__ul__li">
+                        <a href="contact.html" class="header__nav__navlinks__ul__li__a">Kontakt</a>
+                    </li>
+                    <li class="header__nav__navlinks__ul__li_but">
+                        <button class="header__nav__navlinks__ul__li_but__button">
+                            <div class="header__nav__navlinks__ul__li_but__button__icon"></div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="header__h1">Kontakt</h1>
+    </section>
+    <section class="location">
+        <iframe class="location__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.6454627284356!2d18.692503215879395!3d50.298545606179545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471131af10621b0d%3A0xcd396117113c541e!2zWmVzcMOzxYIgU3prw7PFgiBUZWNobmljem5vLUluZm9ybWF0eWN6bnljaA!5e0!3m2!1spl!2spl!4v1654258271616!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact">
+        <div class="contact__row">
+            <div class="contact__row__column">
+                <div class="contact__row__column__content">
+                    <i class="fa fa-home"></i>
+                    <span class="contact__row__column__content__span">
+                        <h5 class="contact__row__column__content__span__h5">ul. Chorzowska 5</h5>
+                        <p class="contact__row__column__content__span__p">44-100 Gliwice</p>
+                    </span>
+                </div>
+                <div class="contact__row__column__content">
+                    <i class="fa fa-phone"></i>
+                    <span class="contact__row__column__content__span">
+                        <h5 class="contact__row__column__content__span__h5"><a class="contact__row__column__content__span__h5__a" href="tel:+48 32 230 68 31">+48 32 230 68 31</a></h5>
+                        <p class="contact__row__column__content__span__p">Od poniedziałku do piątku <w godzinach od 9:00 do 14:00</p>
+                    </span>
+                </div>
+                <div class="contact__row__column__content">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="contact__row__column__content__span">
+                        <h5 class="contact__row__column__content__span__h5"><a class="contact__row__column__content__span__h5__a"href="mailto:szkola@zsti.gliwice.pl">szkola@zsti.gliwice.pl</a></h5>
+                        <p class="contact__row__column__content__span__p">Napisz do nas</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact__row__col">
+                <form class="contact__row__column__form" action="###" method="post">
+                    <input class="contact__row__column__form__input" type="text" name="name" placeholder="Podaj imię" required>
+                    <input class="contact__row__column__form__input" type="email" name="email" placeholder="Podaj nazwisko" required>
+                    <input class="contact__row__column__form__input" type="text" name="subject" placeholder="Podaj temat emaila" required>
+                    <textarea class="contact__row__column__form__textarea" rows="8" name="message" placeholder="Wiadomość" required></textarea>
+                    <button class="contact__row__column__form__button" type="submit">Prześlij</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p class="footer__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nesciunt explicabo recusandae vitae. Aliquid porro amet neque<br>nobis consectetur perspiciatis minus nemo numquam ad sint.</p>
+        <div class="footer__icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script src="../JavaScript/app.js"></script>
+</body>
+</html>
